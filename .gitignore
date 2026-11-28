@@ -4,5 +4,19 @@ __pycache__/
 venv/
 .ipynb_checkpoints/
 .DS_Store
-data/raw/
 *.log
+
+# Regenerable data: initialization.ipynb rebuilds these from data/ads_codes.txt
+data/RAW_PDB/
+data/PREP/
+
+# Regenerable: template.py re-downloads CCD cifs on demand
+data/CCD/
+
+# Derived artifacts
+data/templates.pkl
+results/poses/
+
+# Local working notes
+current_state.md
+information_share.md
